@@ -12,12 +12,12 @@ import Buttons from './components/Buttons.vue'
 
 <style>
 #app {
+
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #7f8d9e;
-  padding-top: 60px;
+  color: #fff;
   background-color:#191b21;
 }
 </style>

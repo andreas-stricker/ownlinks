@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-5">
+  <div class="mb-10 pt-6">
     <img
       id="profileImg"
       class="m-auto rounded-full w-full mb-5"
@@ -24,6 +24,7 @@
       </li>
     </ul>
   </div>
+  
 </template>
 
 <script>
