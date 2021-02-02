@@ -11,13 +11,16 @@ import Buttons from './components/Buttons.vue'
 </script>
 
 <style>
-#app {
+body{
+    background-color:#191b21;
+}
 
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+#app {
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #fff;
-  background-color:#191b21;
+  color: #7f8d9e;
 }
 </style>
