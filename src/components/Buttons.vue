@@ -1,42 +1,47 @@
 <template>
-  <div class="max-w-4xl w-full px-5 mx-auto">
-    
-    <div class="button flex rounded-lg mb-7 ml-3">
+     
+    <div v-for="button in buttons" class="button flex rounded-lg mb-7 ml-3">
       <div class="imgWrap -ml-3 mt-2 shadow-2xl">
         <img src="/src/assets/img/blogpost.png" alt="Blogpost" />
       </div>
       <div class="text flex-auto text-left p-4">
-        <h2 class="text-white font-semibold text-md">Hier steht eine Headline</h2>
-        <p class="description text-sm font-normal">Hier steht die Beschreibung</p>
+        <h2 class="text-white font-semibold text-md">{{button.title}}</h2>
+        <p class="description text-sm font-normal">{{button.description}}</p>
       </div>
-      <a href="#" target="_blank" rel="noopener"></a>
-      <div class="linkArrow">
-        <i>ARROW</i>
-      </div>
-    </div>
-
-    <div class="button flex rounded-lg mb-7 ml-3">
-      <div class="imgWrap -ml-3 mt-2 shadow-2xl">
-        <img src="/src/assets/img/blogpost.png" alt="Blogpost" />
-      </div>
-      <div class="text flex-auto text-left p-4">
-        <h2 class="text-white font-semibold text-md">Hier steht eine Headline</h2>
-        <p class="description text-sm font-light">Hier steht die Beschreibung</p>
-      </div>
-      <a href="#" target="_blank" rel="noopener"></a>
+      <a href="{{button.link}}" target="_blank" rel="noopener"></a>
       <div class="linkArrow">
         <i>ARROW</i>
       </div>
     </div>
     
-    
-  </div>
 </template>
 
 <script>
+
+export default{
+  data(){
+    return{
+      buttons: [{
+        id:1,
+        title:'Hier steht eine Headline',
+        description:'Hier steht die Beschreibung',
+        img:'',
+        link:'#'
+      },
+      {
+        id:2,
+        title:'Hier steht eine Headline',
+        description:'Hier steht die Beschreibung',
+        img:'',
+        link:'#'
+      }]
+    }
+  }
+}
+
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .button {
   background-color: #2d2f39;
 

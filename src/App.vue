@@ -1,7 +1,12 @@
 <template>
   <div class="container mx-auto">
+    
     <profile />
-    <buttons />
+    
+    <div class="max-w-4xl w-full px-5 mx-auto">
+      <buttons />
+    </div>
+  
   </div>
 </template>
 

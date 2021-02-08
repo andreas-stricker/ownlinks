@@ -31,7 +31,7 @@
 </script>
 
 
-<style>
+<style scoped>
 #profileImg {
   max-width: 8rem;
 }
