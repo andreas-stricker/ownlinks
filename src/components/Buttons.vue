@@ -8,7 +8,7 @@
       <p class="description text-sm font-normal">{{ button.description }}</p>
     </div>
     <a href="{{button.link}}" target="_blank" rel="noopener"></a>
-    <div class="linkArrow flex justify-center flex-col text-3xl p-4 pl-2">
+    <div class="linkArrow flex justify-center flex-col text-2xl p-4 pl-2">
       <fa :icon="['fas', 'angle-right']"></fa>
     </div>
   </div>
