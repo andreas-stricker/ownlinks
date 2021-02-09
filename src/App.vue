@@ -27,5 +27,6 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #7f8d9e;
+  padding-bottom:3rem;
 }
 </style>
