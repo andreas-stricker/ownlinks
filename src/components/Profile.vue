@@ -9,6 +9,7 @@
     <h1 class="text-xl text-white font-bold">Andreas Stricker</h1>
     <p class="profileDescription">web developer | ux/ui designer</p>
     <ul id="socialIcons" class="flex justify-center mt-2">
+      <!-- FACEBOOK -->
       <li>
         <a
           href="https://facebook.com/andreas.stricker.webdev"
@@ -18,6 +19,7 @@
           <fa :icon="['fab', 'facebook-square']" />
         </a>
       </li>
+      <!-- INSTAGRAM -->
       <li>
         <a
           href="https://instagram.com/andy.webdev"
@@ -27,6 +29,7 @@
           <fa :icon="['fab', 'instagram']" />
         </a>
       </li>
+      <!-- LINKEDIN -->
       <li>
         <a
           href="https://www.linkedin.com/in/andreas-stricker/"
@@ -45,6 +48,7 @@
           <fa :icon="['fab', 'dev']" />
         </a>
       </li>
+      <!-- GITHUB -->
       <li>
         <a
           href="https://github.com/andreas-stricker"
@@ -54,6 +58,27 @@
           <fa :icon="['fab', 'github']" />
         </a>
       </li>
+      <!-- YOUTUBE -->
+      <!-- <li>
+        <a
+          href="https://www.youtube.com/channel/UCfZoClNXfaRjhUDysuDSUTQ"
+          target="_blank"
+          rel="noopener"
+          >
+          <fa :icon="['fab', 'youtube']" />
+        </a>
+      </li> -->
+      <!-- MEDIUM -->
+      <!-- <li>
+        <a
+          href="https://www.medium.com"
+          target="_blank"
+          rel="noopener"
+          >
+          <fa :icon="['fab', 'medium']" />
+        </a>
+      </li> -->
+      
     </ul>
   </div>
 </template>
