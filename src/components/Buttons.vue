@@ -1,18 +1,5 @@
 <template>
-  <!-- <div v-for="button in buttons" class="button flex rounded-lg mb-7 ml-3">
-    <div class="imgWrap -ml-3 mt-2 shadow-2xl">
-      <img src="/src/assets/img/blogpost.png" alt="Blogpost" />
-    </div>
-    <div class="text flex-auto text-left p-4">
-      <h2 class="text-white font-semibold text-md">{{ button.title }}</h2>
-      <p class="description text-sm font-normal">{{ button.description }}</p>
-    </div>
-    <a href="{{button.link}}" target="_blank" rel="noopener"></a>
-    <div class="linkArrow flex justify-center flex-col text-2xl p-4 pl-2">
-      <fa :icon="['fas', 'angle-right']"></fa>
-    </div>
-  </div> -->
-
+  <!-- Buttons -->
   <template v-for="button in buttons" :key="button._uid">
     <div class="button flex rounded-lg mb-7 ml-3">
       <div class="imgWrap -ml-3 mt-2 shadow-2xl">
@@ -36,7 +23,7 @@
     </div>
   </template>
 
-
+  <!-- RECOMMENDATIONS -->
   <div v-if="recommendations.length > 0">
   <h3 class="pb-5 pt-3">Recommendations</h3>
 
@@ -61,8 +48,9 @@
   </template>
   </div>
 
+  <!-- COUPONS -->
   <div v-if="coupons.length > 0">
-    <h3 class="pb-5 pt-3">Coupons</h3>
+    <h3 class="pb-5 pt-3">Coupons & Discounts</h3>
 
     <template v-for="couponBtn in coupons" :key="couponBtn._uid">
       <div class="button flex rounded-lg mb-7 ml-3">
@@ -189,6 +177,7 @@ h3 {
     width: 60px;
     height: 60px;
     object-fit: cover;
+    flex:0 0 auto;
   }
 
   .description {
