@@ -19,6 +19,16 @@
           <fa :icon="['fab', 'facebook-square']" />
         </a>
       </li>
+      <!-- YOUTUBE -->
+      <li>
+        <a
+          href="https://www.youtube.com/channel/UCfZoClNXfaRjhUDysuDSUTQ"
+          target="_blank"
+          rel="noopener"
+          >
+          <fa :icon="['fab', 'youtube']" />
+        </a>
+      </li>
       <!-- INSTAGRAM -->
       <li>
         <a
@@ -39,7 +49,7 @@
           <fa :icon="['fab', 'linkedin']" />
         </a>
       </li>
-      <li>
+      <!-- <li>
         <a
           href="https://dev.to/andreas-stricker"
           target="_blank"
@@ -47,7 +57,7 @@
           >
           <fa :icon="['fab', 'dev']" />
         </a>
-      </li>
+      </li> -->
       <!-- GITHUB -->
       <li>
         <a
@@ -58,16 +68,7 @@
           <fa :icon="['fab', 'github']" />
         </a>
       </li>
-      <!-- YOUTUBE -->
-      <!-- <li>
-        <a
-          href="https://www.youtube.com/channel/UCfZoClNXfaRjhUDysuDSUTQ"
-          target="_blank"
-          rel="noopener"
-          >
-          <fa :icon="['fab', 'youtube']" />
-        </a>
-      </li> -->
+      
       <!-- MEDIUM -->
       <!-- <li>
         <a
